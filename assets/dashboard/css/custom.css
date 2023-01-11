@@ -1,0 +1,145 @@
+/******FONTS*******
+*******************/
+
+@font-face {
+    font-family: "gotham-black";
+    src: url("../fonts/gotham-black.otf");
+}
+
+@font-face {
+    font-family: "gotham-bold";
+    src: url("../fonts/gotham-bold.otf");
+}
+
+@font-face {
+    font-family: "gotham-medium";
+    src: url("../fonts/gotham-medium.otf");
+}
+
+@font-face {
+    font-family: "gotham-book";
+    src: url("../fonts/gotham-book.otf");
+}
+
+body {
+    font-family: 'gotham-book', Verdana, Tahoma, sans-serif;
+}
+
+h1,
+h2 {
+    font-family: 'gotham-bold', Verdana, Tahoma, sans-serif;
+}
+
+h1 {
+    font-size: 56px;
+}
+
+small {
+    font-size: 75%;
+}
+
+.gotham-black {
+    font-family: 'gotham-black', Verdana, Tahoma, sans-serif;
+}
+
+.gotham-bold {
+    font-family: 'gotham-bold', Verdana, Tahoma, sans-serif;
+}
+
+.gotham-medium {
+    font-family: 'gotham-medium', Verdana, Tahoma, sans-serif;
+}
+
+.gotham-book {
+    font-family: 'gotham-book', Verdana, Tahoma, sans-serif;
+}
+
+
+/******COLORS*******
+*******************/
+
+.textOrange {
+    color: #FF6B00;
+}
+
+.backOrange {
+    background: #FF6B00;
+}
+
+
+/******CONFIGS*******
+*******************/
+
+.col-sm-4 {
+    max-width: 33%;
+}
+
+.p75 {
+    padding: 75px 0;
+}
+
+.h-100vh {
+    height: 100vh;
+}
+
+.pointer {
+    cursor: pointer !important;
+}
+
+#error_block {
+    margin-top: 4em;
+}
+
+
+/********SETUP PAGE****
+***********************/
+
+#setup_page {
+    padding: 5em;
+    background-image: linear-gradient(153deg, #8adc32 0%, #25c7a2 95%);
+}
+
+.form-signin {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 0;
+}
+
+
+/********LOGIN PAGE****
+***********************/
+
+#login_page {
+    padding: 3em;
+    background-image: linear-gradient(153deg, #3be2bc 0%, #1b96f1 95%);
+    height: 100vh;
+}
+
+#login_page .container {
+    padding: 5em;
+}
+
+#login_page .col-lg-5 {
+    background: url('../img/logo.png')no-repeat, #fff;
+    background-size: 75px;
+    background-position: top;
+    background-position-y: 2em;
+    border-radius: 10px;
+    padding: 2em;
+}
+
+
+/********DASHBOARD PAGE****
+***********************/
+
+.brand {
+    height: 56px;
+}
+
+
+/********DASHBOARD PAGE****
+***********************/
+
+#overview .card .card-title {
+    font-weight: 500;
+}
